@@ -1,0 +1,118 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f2f2f2;
+    padding:20px;
+}
+
+.container{
+    width:800px;
+    margin:auto;
+    background:#fff;
+    padding:20px;
+    border:1px solid #ccc;
+}
+
+.required{
+    color:red;
+}
+
+.steps{
+    font-weight:bold;
+    margin:15px 0;
+}
+
+fieldset{
+    margin-bottom:20px;
+    padding:15px;
+}
+
+legend{
+    color:red;
+    font-weight:bold;
+    font-size:18px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+td{
+    padding:4px;
+    vertical-align:top;
+}
+
+/* Left Column */
+td:first-child{
+    width:240px;
+    text-align:right;
+    font-weight:bold;
+    padding-right:10px;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select{
+    width:250px;
+    padding:4px;
+    border:1px solid #999;
+}
+
+.small-input{
+    width:150px !important;
+}
+
+.tiny-input{
+    width:60px !important;
+}
+
+textarea{
+    width:420px;
+    height:120px;
+    padding:8px;
+    border:1px solid #999;
+    resize:none;
+}
+
+/* Checkbox Section */
+.checkbox-cell{
+    text-align:left !important;
+    padding-left:0 !important;
+}
+
+.checkbox-cell label{
+    display:block;
+    font-weight:normal;
+    text-align:left;
+    margin-bottom:6px;
+}
+
+.checkbox-cell input[type="checkbox"]{
+    margin-right:8px;
+}
+
+input[type="radio"],
+input[type="checkbox"]{
+    margin-right:5px;
+}
+
+/* Buttons */
+button{
+    padding:4px 12px;
+    margin-right:8px;
+    cursor:pointer;
+}
+
+p{
+    margin:8px 0;
+}
+
